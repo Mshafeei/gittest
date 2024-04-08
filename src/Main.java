@@ -12,6 +12,7 @@ public class Main {
         }
 
         int y = random.nextInt();
+        y *= 10;
         if (y<30){
             System.out.println("t");
         }
