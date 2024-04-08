@@ -10,5 +10,11 @@ public class Main {
         else {
             System.out.println("f");
         }
+
+        int y = random.nextInt();
+        if (y<30){
+            System.out.println("t");
+        }
+        else System.out.println("f");
     }
 }
